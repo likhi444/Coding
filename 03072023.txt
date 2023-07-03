@@ -2,9 +2,30 @@ n=int(input())
 
 if n%2==0:
   
-  print("Even number")
+    print("Even number")
 
 else:
     
-print("Odd number")
+    print("Odd number")
 
+
+
+
+n=int(input())
+
+n1=int(input())
+
+n2=int(input())
+
+if (n>n1 and n1>n2):
+  
+   print("n is greater")
+
+elif(n1>n2):
+    
+   print("n1 is greater")
+
+else:
+   
+   print("n2 is greater")
+                              
