@@ -1,0 +1,32 @@
+power 
+=================
+m=int(input())
+
+n=int(input())
+
+p=pow(m,n)
+
+print(p)
+
+==============
+factorial
+========
+n=int(input())
+
+f=1
+
+for i in range(1,n+1):
+ 
+   f=f*i;
+
+print(f) 
+========
+factors
+===================
+n=int(input())
+
+for i in range(1,n+1):
+ 
+   if(n%i==0):
+     
+     print(i)    
