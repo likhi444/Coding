@@ -1,0 +1,13 @@
+reverse number
+================
+n=input()
+
+print(n[::-1])
+===============
+palindrome
+==============
+n=input()
+
+if(n[::]==n[::-1]):
+   
+  print("palindrome")
