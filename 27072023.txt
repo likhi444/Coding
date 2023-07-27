@@ -1,0 +1,10 @@
+single digit
+==================
+nums=[7,8,93,345]
+s=""
+for i in nums:
+  s+=str(i)
+res=[]
+for i in s:
+  res.append(int(i))
+print(res)    
